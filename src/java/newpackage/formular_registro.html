@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Camión</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar Camión</h1>
+        <form action="RegistrarCamionServlet" method="post">
+            <label>Placa:</label>
+            <input type="text" name="placa" required><br>
+            <label>Color:</label>
+            <input type="text" name="color" required><br>
+            <label>Modelo:</label>
+            <input type="text" name="modelo" required><br>
+            <label>Capacidad (Toneladas):</label>
+            <input type="text" name="capacidad" required><br>
+            <label>ID Transporte:</label>
+            <input type="text" name="id_transporte"><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
